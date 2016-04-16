@@ -19,10 +19,8 @@ int main() {
     Stack<Vehicle *> stack1, stack2;
     
     stack1.push(new Car(2013, "Scion", "FR-S", DriveTrainRearWheelDrive, TransmissionManual));
-    stack1.push(new Motorcycle(2010, "BMW", "Z12DQ", MotorcycleTypeCruiser));
+    stack1.push(new Motorcycle(2010, "Honda", "Z12DQ", MotorcycleTypeCruiser));
     stack1.push(new Car(2006, "Honda", "CR-V", DriveTrainRearWheelDrive, TransmissionAutomatics));
-    
-    
     cout << "The stack is" << endl;
     while(!stack1.isEmpty())
     {
