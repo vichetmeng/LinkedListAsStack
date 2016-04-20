@@ -24,7 +24,6 @@ void Car::setDriveTrain(DriveTrain newDriveTrain)
 
 void Car::print(ostream& where) const
 {
-    
     where << "Car" << endl;
     where << "\tYear: " << getYear() << endl;
     where << "\tMake: " << getMake() << endl;
